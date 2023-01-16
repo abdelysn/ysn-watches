@@ -1,0 +1,154 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right, #ffffff , #f6f6f6 , #eeeeee , #e5e5e5 , #dddddd )
+;}
+
+*{
+    text-decoration: none;
+    list-style: none;
+  overflow: hidden;
+
+}
+
+#logo{
+    height: 50px;
+    position: relative;
+    top: 30px;
+    left: 90px;
+    cursor: pointer;
+}
+
+.titre{
+   font-weight: 600;
+   position: absolute;
+   top: 35px;
+   left: 190px;
+   cursor: pointer;
+   font-family: 'Playfair Display', serif;
+   font-family: 'Poppins', sans-serif;
+   
+}
+
+
+.titre ul {
+    display: flex;
+    
+}
+.titre ul li{
+    margin: 0px 30px;
+    
+    
+}
+.titre ul li a:hover {
+    transition: 1s;
+    animation-duration: 2s;
+    animation-delay: 3s;
+
+}
+
+.titre ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    
+
+}
+
+#add{
+    font-weight: 500;
+    border: 2px solid black;
+    display: inline;
+    padding-inline: 20px;
+    padding-block: 10px;
+    position: absolute;
+    bottom: 70px;
+    left: 90px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#add:hover{
+    
+    transition-duration: 800ms;
+    transform: scale(1.2);
+    transition-timing-function: ease-out;
+    
+}
+
+
+#text{
+    color: rgb(8, 8, 8);
+    font-weight: 800;
+    margin-top: 400px;
+    margin-left: 83px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+#text1{
+margin-left: 83px;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+}
+
+#loupe{
+    height: 50px;
+    position: absolute;
+    right: 160px;
+    top: 35px;
+    cursor: pointer;
+}
+
+#id{
+    position: absolute;
+    
+}
+
+#id:visited{
+    color: black;
+}
+
+#acco{
+    height: 50px;
+    position: absolute;
+    right: 80px;
+    top: 35px;
+    cursor: pointer;
+}
+#acco:hover{
+    
+    transition-duration: 500ms;
+    transform: scale(1.5);
+    transition-timing-function: ease-out;
+    }
+#reseau{
+    height: 30px;
+    margin-left: 1260px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#mercu{
+    font-family: 'Voltaire', sans-serif;
+    font-size: 220px;
+    opacity: 0.5;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 25%;
+    letter-spacing: -15px;
+    background-clip: text;
+    background: -webkit-linear-gradient(rgb(199, 199, 199), rgb(233, 233, 233));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+#nike{
+    height: 600px;
+    position: absolute;
+    margin-left: 30%;
+    bottom: 100px;
+    cursor: pointer;
+    display: inline;
+
+}
